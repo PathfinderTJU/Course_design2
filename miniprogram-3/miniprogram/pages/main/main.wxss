@@ -1,0 +1,114 @@
+/* miniprogram/pages/new/new.wxss */
+.bg {
+  height: 500%;
+  background-color: #fff;
+}
+ page {
+  background-color: #fff;
+} 
+
+.icon{
+  align-items: center;
+  font-size: 120%;
+  padding-left: 50px;
+}
+
+.title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 18px;
+  color:#515151;
+  font-weight: bold;
+  font-family: "幼圆";
+}
+
+.blank { 
+ width: 35%; 
+ height: 100px;
+ margin-top: 170px; 
+ margin-left:45px;
+ float:left;
+ /* background-color: #fff; */
+}
+.module { 
+ width: 35%; 
+ margin-top: 170px; 
+ margin-right:45px;
+ float:right;
+ /* background-color: #fff; */
+}
+
+.tab-bar{
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color: #fff;
+  border-top:1px solid #C0BFC4;
+  z-index:500;
+}
+.tab-bar .tab-item{
+  float:left;
+  width: 33.33333%;
+  text-align: center;
+  padding-top:5px;
+}
+
+.tab-bar .tab-item .icons{
+  font-size:27px;
+  color:#808080;
+  font-weight:800;
+}
+.tab-bar .tab-item .icon-text{
+  font-size:10px;
+  display: block;
+  line-height:2.1;
+  color:#808080;
+}
+.tab-bar .active .icons{
+  color:#000;
+
+}
+.tab-bar .active .icon-text{
+  color:#2589d6;
+}
+
+/*iconfont */
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1547540412538'); /* IE9 */
+  src: url('iconfont.eot?t=1547540412538#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+  url('iconfont.woff?t=1547540412538') format('woff'),
+  url('iconfont.ttf?t=1547540412538') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1547540412538#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wode:before {
+  content: "\e612";
+}
+
+.icon-shouye:before {
+  content: "\e62a";
+}
+
+.icon-chazhao:before {
+  content: "\e601";
+}
+
+.icon-shafa:before {
+  content: "\e61c";
+}
+
+.icon-faxianliulan:before {
+  content: "\e619";
+}
+

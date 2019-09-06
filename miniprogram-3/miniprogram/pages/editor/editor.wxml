@@ -1,0 +1,56 @@
+<!--pages/editor/editor.wxml-->
+<import src="/pages/editor/editor_template/editor_template.wxml" />
+
+<view class="outside_block">
+
+  <view class="title_block" decode="{{true}}" bindtap="re_edit">
+    <view id="title_title">标题
+      <text>\n</text>
+    </view>
+    <view id="title_content">{{title}}</view>
+  </view>
+  <view class="abstract_block" decode="{{true}}" bindtap="re_edit">
+    <view id="title_title">简介
+      <text>\n</text>
+    </view>
+    <view id="title_content">{{abstract}}</view>
+  </view>
+
+  <block wx:for="{{question}}">
+    <template is="{{item.type}}" data="{{item}}"></template>
+  </block>
+
+</view>
+
+
+<view class="row">
+
+
+  <view class="item_bg" bindtap="toAdd">
+    <view class="item_icon">
+      <image class="image" src="/images/addQed.png" mode="scaleToFill" />
+      <text class="text">新增</text>
+    </view>
+  </view>
+
+
+
+  <view class="item_bg" bindtap="toPublish">
+    <view class="item_icon">
+      <image src="/images/published.png" mode="scaleToFill" />
+      <text class="text">发布</text>
+    </view>
+  </view>
+
+
+  <view class="item_bg" bindtap="toView">
+    <view class="item_icon">
+      <image src="/images/previewed.png" mode="scaleToFill" />
+      <text class="text">预览</text>
+    </view>
+  </view>
+</view>
+
+<view>
+  <more id="more_component" bindupMove="upMove" binddownMove="downMove" binddeleteMove="deleteMove"></more>
+</view>

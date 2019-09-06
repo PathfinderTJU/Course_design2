@@ -1,0 +1,94 @@
+/* miniprogram/pages/statistics/statistics.wxss */
+page{
+  background-color: rgb(232, 232, 232);
+}
+
+.top_block{
+  background-color: white;
+}
+
+.title_block{
+  display: block;
+  padding: 30rpx 50rpx 30rpx 50rpx;
+  text-align: center;
+}
+
+.line{
+  margin: 0 30rpx 0 30rpx;
+  border-style: solid;
+  border-width: 1rpx;
+  border-color: #d3d2d2;
+}
+
+.args_block{
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx 0 30rpx 0;
+}
+
+.total_number, .max_number{
+  text-align: center;
+}
+
+.total_number{
+  padding-left: 20%;
+}
+
+.max_number{
+  padding-right: 20%;
+}
+
+.column_line{
+  height: 100%;
+  border-style: solid;
+  border-width: 1rpx;
+  border-color: #d3d2d2;
+}
+
+.tip{
+  font-size: 30rpx;
+  color: #a0a0a0;
+}
+
+.number{
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.all{
+  margin-bottom: 30rpx;
+  padding: 20rpx 0 20rpx 0;
+  color: #3aa7f9;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.bottom_block ,.all{
+  background-color: white;
+}
+
+.bottom_title{
+  padding: 30rpx 0 30rpx 0;
+  text-align: center;
+}
+
+.radio_block, .checkbox_block, .star_block, .other_block{
+  padding: 20rpx 50rpx 50rpx 50rpx;
+}
+
+.else{
+  text-align: center;
+  padding-top: 30rpx;
+  color: #3aa7f9;
+}
+
+.radiocanvas, .checkboxcanvas, .starcanvas{
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+.noAnswer{
+  text-align: center;
+  padding: 150rpx 0 150rpx 0;
+}

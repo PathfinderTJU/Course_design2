@@ -1,0 +1,42 @@
+<!--pages/data_detail/data_detail.wxml-->
+<view class="outside_block">
+  <view class="title_block">
+    {{title}}
+  </view>
+
+  <view wx:if="{{navigateType == 1}}" class="all_block">
+    <block wx:for="{{answers}}">
+      <view class="all_block">
+        <view class="all_answer_order">答卷编号{{index+1}}</view>
+        <block wx:for="{{item.answers}}">
+          <view class="content_block">
+            <view class="all_answer_title">{{index+1}}: {{questionnaire.questions[item.order-1].title}}</view>
+            <text class="tip" decode="{{true}}">答案:&nbsp;&nbsp;&nbsp;</text>
+            <view wx:if="{{questionnaire.questions[item.order-1].type === 'radio'}}" class="all_answer_content">{{questionnaire.questions[item.order-1].answers[item.answer]}}</view>
+            <view wx:elif="{{questionnaire.questions[item.order-1].type === 'checkbox'}}" class="all_answer_content">
+              <!-- <block wx:for="{{item}}"> -->
+                <view>{{item.answer}}</view>
+              <!-- </block> -->
+            </view>
+            <view wx:else>{{item.answer}}</view>
+          </view>
+        </block>
+      </view>
+      <view class="line"></view>
+    </block>
+  </view>
+
+  <view wx:else class="else_block">
+    <view class="single_answer_block">
+      <view class="single_answer_order">编号</view>
+      <view class="single_answer_content">答案</view>
+    </view>
+    <view class="line"></view>
+    <block wx:for="{{answers}}">
+      <view class="single_answer_block">
+        <view class="single_answer_order">{{index+1}}</view>
+        <view class="single_answer_content">{{item}}</view>
+      </view>
+    </block>
+  </view>
+</view>

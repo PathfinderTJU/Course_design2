@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+<text class="text1">你若创建，便是晴天☀</text>
+<button class="btn" hover-class="hover" bindtap="create">点我创建问卷</button>
+</view>

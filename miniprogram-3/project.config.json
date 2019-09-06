@@ -1,0 +1,479 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wxb9b907cc7c3579bb",
+	"projectname": "miniprogram-3",
+	"libVersion": "2.2.5",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"compileType": "miniprogram",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 62,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/blank/blank",
+					"pathName": "pages/blank/blank",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/add/add_radio/add_radio",
+					"pathName": "pages/add/add_radio/add_radio",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/main/main",
+					"pathName": "pages/main/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/add/add_radio/add_radio",
+					"pathName": "pages/add/add_radio/add_radio",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/add/add_blank/add_blank",
+					"pathName": "pages/add/add_blank/add_blank",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/add/add_checkbox/add_checkbox",
+					"pathName": "pages/add/add_checkbox/add_checkbox",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/add/add_date/add_date",
+					"pathName": "pages/add/add_date/add_date",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/add/add_star/add_star",
+					"pathName": "pages/add/add_star/add_star",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/add/add_id/add_id",
+					"pathName": "pages/add/add_id/add_id",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/add_question/add_question",
+					"pathName": "pages/add_question/add_question",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/statistics/statistics",
+					"pathName": "pages/statistics/statistics",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/publish/publish",
+					"pathName": "pages/publish/publish",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/manage/manage",
+					"pathName": "pages/manage/manage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/statistics/statistics",
+					"pathName": "pages/statistics/statistics",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/create/create",
+					"pathName": "pages/create/create",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/editor/editor",
+					"pathName": "pages/editor/editor",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/create/create",
+					"pathName": "pages/create/create",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/title_abstract/title_abstract",
+					"pathName": "pages/title_abstract/title_abstract",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 20,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaire= efdeb2615d6a6f4d0eb1cd2c4bf9c2a9",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaire= efdeb2615d6a6f4d0eb1cd2c4bf9c2a9",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaireId= efdeb2615d6a6f4d0eb1cd2c4bf9c2a9",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaireId= 90b4093b5d6a71c90eb34fd6587ae7d5",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaireId= 90b4093b5d6a71c90eb34fd6587ae7d5",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaireId=90b4093b5d6a71c90eb34fd6587ae7d5",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaireId=90b4093b5d6a71c90eb34fd6587ae7d5",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaireId=90b4093b5d6a71c90eb34fd6587ae7d5",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaire=efdeb2615d6b8f9f0f6a319f13a968b9",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaire=efdeb2615d6b8f9f0f6a319f13a968b9",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1& questionnaireId=efdeb2615d6b8f9f0f6a319f13a968b9",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaireId=efdeb2615d6b8f9f0f6a319f13a968b9",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=1&questionnaireId=efdeb2615d6b8f9f0f6a319f13a968b9",
+					"scene": null
+				},
+				{
+					"id": 34,
+					"name": "pages/manage/manage",
+					"pathName": "pages/manage/manage",
+					"query": "index=1&questionnaireId=efdeb2615d6b8f9f0f6a319f13a968b9",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "index=1&questionnaireId=efdeb2615d6b8f9f0f6a319f13a968b9",
+					"scene": null
+				},
+				{
+					"id": 36,
+					"name": "pages/complete/complete",
+					"pathName": "pages/complete/complete",
+					"query": "index=-1&questionnaireId=\"11111\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/statistics/statistics",
+					"pathName": "pages/statistics/statistics",
+					"query": "index=-1&questionnaireId=\"3c4c6d855d6f6b4511558cc5661470b1\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/statistics/statistics",
+					"pathName": "pages/statistics/statistics",
+					"query": "index=-1&id=\"3c4c6d855d6f6b4511558cc5661470b1\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/statistics/statistics",
+					"pathName": "pages/statistics/statistics",
+					"query": "index=-1&id=\"3c4c6d855d6f6b4511558cc5661470b1\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/statistics/statistics",
+					"pathName": "pages/statistics/statistics",
+					"query": "index=-1&id=3c4c6d855d6f6b4511558cc5661470b1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=-1&questionnaireId=3c4c6d855d6f6b4511558cc5661470b1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/success_thanks/success_thanks",
+					"pathName": "pages/success_thanks/success_thanks",
+					"query": "index=-1&id=3c4c6d855d6f6b4511558cc5661470b1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/statistics/statistics",
+					"pathName": "pages/statistics/statistics",
+					"query": "index=-1&id=3c4c6d855d6f6b4511558cc5661470b1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=-1&id= 5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=-1&id=5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=-1&id=5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=-1&questionnaireId =5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=-1&questionnaireId=5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/write/write",
+					"pathName": "pages/write/write",
+					"query": "index=-1&questionnaireId=90b4093b5d70c0dd1211b7c50a71063a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/data_detail/data_detail",
+					"pathName": "pages/data_detail/data_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/data_detail/data_detail",
+					"pathName": "pages/data_detail/data_detail",
+					"query": "index=-1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/data_detail/data_detail",
+					"pathName": "pages/data_detail/data_detail",
+					"query": "index=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/data_detail/data_detail",
+					"pathName": "pages/data_detail/data_detail",
+					"query": "index=1&id= 5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/data_detail/data_detail",
+					"pathName": "pages/data_detail/data_detail",
+					"query": "index=1&id=5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/data_detail/data_detail",
+					"pathName": "pages/data_detail/data_detail",
+					"query": "index=1&id=5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/data_detail/data_detail",
+					"pathName": "pages/data_detail/data_detail",
+					"query": "index=1&id=5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/data_detail/data_detail",
+					"pathName": "pages/data_detail/data_detail",
+					"query": "index=1&id=5d262bd45d70c2611216580752e8b0d6",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/data_detail/data_detail",
+					"pathName": "pages/data_detail/data_detail",
+					"query": "index=1&id=5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/statistics/statistics",
+					"pathName": "pages/statistics/statistics",
+					"query": "index=1&id=5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/statistics/statistics",
+					"pathName": "pages/statistics/statistics",
+					"query": "id=5d262bd45d70c2611216580752e8b0d6",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/statistics/statistics",
+					"pathName": "pages/statistics/statistics",
+					"query": "id=5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/statistics/statistics",
+					"pathName": "pages/statistics/statistics",
+					"query": "id=5d262bd45d70bcb312127b0c6bd23f5a",
+					"scene": null
+				}
+			]
+		}
+	}
+}

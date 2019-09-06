@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1367773 */
+  src: url('//at.alicdn.com/t/font_1367773_72ve448jn2h.eot');
+  src: url('//at.alicdn.com/t/font_1367773_72ve448jn2h.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1367773_72ve448jn2h.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1367773_72ve448jn2h.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1367773_72ve448jn2h.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1367773_72ve448jn2h.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixin:before { content: "\e637"}
+.icon-plus:before { content: "\e61c"}
+.icon-minus:before { 
+  content: "\e728";
+  font-size: 35rpx;
+}
+.icon-phone:before { content: "\e7dc"}
+.icon-mail:before { content: "\e631"}
+.icon-date:before { content: "\e643"}
+.icon-id:before { content: "\e674"}
+.icon-star:before { content: "\e642"}
+.icon-more:before{content: "\e600"}
+.icon-list:before{content: "\e60b"}
+.icon-add:before{content:"\e68a"}
+.icon-copy:before{content:"\e668"}
+.icon-baoming:before{content:"\e649"}
+.icon-manyi:before{content:"\e79c"}
+.icon-toupiao:before{content:"\e66d"}
+.icon-test:before{content:"\e677"}
+.icon-dot:before{content:"\e646"}
+.icon-edit:before{content:"\e66f"}
+.icon-data:before{content:"\e62d"}
+.icon-share:before{content:"\e641"}

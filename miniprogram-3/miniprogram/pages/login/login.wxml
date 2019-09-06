@@ -1,0 +1,25 @@
+<!--pages/login/login.wxml-->
+<view class="outside_block">
+  <view class="logo_block">
+    <view class="logo_img_block">
+      <image id="logo_img" src="https://6878-hxl-1wbvh-1300062952.tcb.qcloud.la/TIM%E5%9B%BE%E7%89%8720190826111818.jpg?sign=53661f79dda54371449e33669ca3c68d&t=1566791673"></image>
+    </view>
+    <view id="logo_name">怡问卷</view>
+    <view id="construction">轻松发布问卷 轻松答题</view>
+  </view>
+
+  <view class="button_block">
+    <button id="login_button"  open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      <text class="iconfont icon-weixin">   微信登录</text>
+    </button>
+  </view>
+
+  <view class="bottom_block">
+    <view id="bottom_text_1">
+      登录即表示您同意用户协议
+    </view>
+    <view id="bottom_text_2">
+      CopyRight@hxlstudio 2019.08
+    </view>
+  </view>
+</view>

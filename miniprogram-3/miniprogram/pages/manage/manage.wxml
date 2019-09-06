@@ -1,0 +1,23 @@
+<!--miniprogram/pages/manage/manage.wxml-->
+<view class="outside_block">
+  <block wx:for="{{questionaires}}">
+    <view class="questionaire_block">
+      <view class="title_block">{{item.questionnaireTitle}}</view>
+      <view class="status_block">
+        <view class="status{{item.state}}"><text class="iconfont icon-dot status{{item.state}}"></text>{{states[item.state]}}</view>
+        <view class="number">已收集：{{item.number}}份</view>
+      </view>
+      <view class="line"></view>
+      <view class="button_block">
+        <view class="edit_block" bindtap="edit" id="edit{{index}}"><text class="iconfont icon-edit" decode="{{true}}">&nbsp;&nbsp;</text>编辑</view>
+        <view class="share_block" bindtap="share" id="share{{index}}"><text class="iconfont icon-share" decode="{{true}}">&nbsp;&nbsp;</text>分享</view>
+        <view class="data_block" bindtap="dataMove" id="data{{index}}"><text class="iconfont icon-data" decode="{{true}}">&nbsp;&nbsp;</text>数据</view>
+        <view class="more_block" bindtap="more" id="more{{index}}"><text class="iconfont icon-more" decode="{{true}}">&nbsp;&nbsp;</text>更多</view>
+      </view>
+    </view>
+  </block>
+</view>
+
+<view>
+  <manage_more id="more_component" bindpublish="publish" bindview="view" binddeleteMove="deleteMove"></manage_more>
+</view>

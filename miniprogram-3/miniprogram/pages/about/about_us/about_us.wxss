@@ -1,0 +1,37 @@
+/* pages/about/about_us/about_us.wxss */
+.outside_block{
+  position: absolute;
+  height: 90%;
+  padding: 50rpx;
+  font-size: 35rpx;
+}
+
+.tip1{
+  margin-bottom: 50rpx;
+}
+
+.tip2{
+  margin-bottom: 30rpx;
+}
+
+.message{
+  display: flex;
+}
+
+.icon-star{
+  color: rgb(255, 192, 75);
+}
+
+.thanks{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+.copy{
+  display: block;
+  position: absolute;
+  text-align: center;
+  bottom: 50rpx;
+  color: #a0a0a0;
+  width: 100%;
+}

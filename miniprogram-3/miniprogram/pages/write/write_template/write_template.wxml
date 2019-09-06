@@ -1,0 +1,159 @@
+<template name="radio">
+  <view class="block">
+    <view class="title" decode="{{true}}">
+      {{item.order}}. {{item.title}}
+      <text wx:if="{{item.setting}}" class="setting_img">*</text>
+    </view>
+
+    <view class="radio_answers">
+      <radio-group class="answers-group" name="q{{item.order}}">
+        <label wx:for="{{item.answers}}" class="radio_label">
+          <radio value="{{index}}" checked="{{false}}" class="radio_item" />
+          <text class="answer_content">{{item}}</text>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+</template>
+
+<template name="checkbox">
+  <view class="block">
+    <view class="title" decode="{{true}}">
+      {{item.order}}. {{item.title}}
+      <text wx:if="{{item.setting}}" class="setting_img">*</text>
+    </view>
+
+    <view class="checkbox_answers">
+      <checkbox-group class="answers-group" name="q{{item.order}}">
+        <label wx:for="{{item.answers}}" class="checkbox_label">
+          <checkbox value="{{index}}" checked="{{false}}" class="checkbox_item" />
+          <text class="answer_content">{{item}}</text>
+        </label>
+      </checkbox-group>
+    </view>
+    
+    <view class="number_block">
+      <view class="number_tip number_tip_up">最小选择数：{{item.maxChoice}}</view>
+      <view class="number_tip">最大选择数：{{item.maxChoice}}</view>
+    </view>
+  </view>
+</template>
+
+<template name="blank">
+  <view class="block">
+    <view class="title" decode="{{true}}">
+      {{item.order}}. {{item.title}}
+      <text wx:if="{{item.setting}}" class="setting_img">*</text>
+    </view>
+
+    <input class="blank_answers" name="q{{item.order}}"></input>
+  </view>
+</template>
+
+<template name="list">
+  <view class="block">
+    <view class="title" decode="{{true}}">
+      {{item.order}}. {{item.title}}
+      <text wx:if="{{item.setting}}" class="setting_img">*</text>
+    </view>
+
+    <view class="img_block">
+      <picker class="list_answers" range="{{item.answers}}" bindchange="change_list" id="change_list{{item.order}}" name="q{{item.order}}">{{item.answers[item.result]}}</picker>
+      <view class="img">
+        <text class="iconfont icon-list"></text>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="star">
+  <view class="block">
+    <view class="title" decode="{{true}}">
+      {{item.order}}. {{item.title}}
+      <text wx:if="{{item.setting}}" class="setting_img">*</text>
+      (范围：0-5)
+    </view>
+
+    <view class="star_block">
+      <view class="{{item.result[0]? true : false}}" id="0.{{item.order}}" bindtap="change_star">
+        <text class="iconfont icon-star"></text>
+      </view>
+      <view class="{{item.result[1]? true : false}}" id="1.{{item.order}}" bindtap="change_star">
+        <text class="iconfont icon-star"></text>
+      </view>
+      <view class="{{item.result[2]? true : false}}" id="2.{{item.order}}" bindtap="change_star">
+        <text class="iconfont icon-star"></text>
+      </view>
+      <view class="{{item.result[3]? true : false}}" id="3.{{item.order}}" bindtap="change_star">
+        <text class="iconfont icon-star"></text>
+      </view>
+      <view class="{{item.result[4]? true : false}}" id="4.{{item.order}}" bindtap="change_star">
+        <text class="iconfont icon-star"></text>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="date">
+  <view class="block">
+    <view class="title" decode="{{true}}">
+      {{item.order}}. {{item.title}}
+      <text wx:if="{{item.setting}}" class="setting_img">*</text>
+    </view>
+
+    <view class="img_block">
+      <picker mode="date" class="date_answers" bindchange="change_date" id="change_date{{item.order}}" name="q{{item.order}}">{{item.result}}</picker>
+      <view class="img">
+        <text class="iconfont icon-date"></text>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="phone">
+  <view class="block">
+    <view class="title" decode="{{true}}">
+      {{item.order}}. {{item.title}}
+      <text wx:if="{{item.setting}}" class="setting_img">*</text>
+    </view>
+
+    <view class="img_block">
+      <input class="phone_answers" name="q{{item.order}}" type="number"></input>
+      <view class="img">
+        <text class="iconfont icon-phone"></text>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="mail">
+  <view class="block">
+    <view class="title" decode="{{true}}">
+      {{item.order}}. {{item.title}}
+      <text wx:if="{{item.setting}}" class="setting_img">*</text>
+    </view>
+
+    <view class="img_block">
+      <input class="mail_answers" name="q{{item.order}}"></input>
+      <view class="img">
+        <text class="iconfont icon-mail"></text>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="id">
+  <view class="block">
+    <view class="title" decode="{{true}}">
+      {{item.order}}. {{item.title}}
+      <text wx:if="{{item.setting}}" class="setting_img">*</text>
+    </view>
+
+    <view class="img_block">
+      <input class="id_answers" name="q{{item.order}}" type="idcard"></input>
+      <view class="img">
+        <text class="iconfont icon-id"></text>
+      </view>
+    </view>
+  </view>
+</template>

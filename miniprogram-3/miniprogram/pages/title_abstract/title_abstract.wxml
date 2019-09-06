@@ -1,0 +1,21 @@
+<!--miniprogram/pages/blank/blank.wxml-->
+
+<view class="outside_block">
+  <form bindsubmit="formSubmit">
+    <view class="title_block">
+      <view class="title">问卷标题</view>
+      <input class="title_input" placeholder="请输入问卷标题" value="{{title}}" name="title"></input>
+    </view>
+
+    <!-- 简介 -->
+    <view class="abstract_block">
+      <view class="abstract">简介</view>
+      <textarea class="abstract_input" placeholder="请输入简介" value="{{abstract}}" name="abstract"></textarea>
+    </view>
+
+    <!--按钮-->
+    <view class="button_block">
+      <button class="button" form-type="submit">确定</button>
+    </view>
+  </form>
+</view>

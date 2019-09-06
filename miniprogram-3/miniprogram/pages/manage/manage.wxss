@@ -1,0 +1,78 @@
+/* miniprogram/pages/manage/manage.wxss */
+page{
+  background-color: rgb(235, 235, 235);
+}
+
+.outside_block{
+  height:800px;
+  overflow: scroll;
+  padding: 50rpx 30rpx 50rpx 30rpx;
+  background-color:rgb(235, 235, 235);
+}
+
+.questionaire_block{
+  background-color: white;
+  border-radius: .25rem;
+  box-shadow: 0 2px 2px 0 rgb(192, 192, 192);
+  padding: 0 30rpx 0 30rpx;
+  margin-bottom: 30rpx; 
+}
+
+.title_block{
+  padding: 50rpx 0 10rpx 10rpx;
+  font-size: 40rpx;
+}
+
+.status_block{
+  display: flex;
+  margin-bottom: 40rpx;
+}
+
+.status0{
+  font-size: 30rpx;
+  color: orange;
+}
+
+.status1{
+  font-size: 30rpx;
+  color: rgb(2, 206, 2);
+}
+
+.status2{
+  font-size: 30rpx;
+  color: red;
+}
+
+.icon-dot{
+  font-size: 40rpx;
+}
+
+.number{
+  padding-left: 30rpx;
+  padding-top: 5rpx;
+  font-size: 30rpx;
+  color: #a0a0a0;
+}
+
+.line{
+  width: 100%;
+  border-bottom:1px solid #e8e8e8;
+}
+
+.button_block{
+  height: 80rpx;
+  display: flex;
+}
+
+.edit_block, .share_block, .data_block, .more_block{
+  text-align: center;
+  padding-top: 20rpx;
+  width: 25%;
+  font-size: 28rpx;
+  color: #3aa7f9;
+  justify-content: space-between;
+}
+
+.icon_edit, .icon_share, .icon_data, icon_more{
+  margin-right: 10rpx;
+}

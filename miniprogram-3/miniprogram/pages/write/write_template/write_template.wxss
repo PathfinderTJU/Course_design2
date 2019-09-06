@@ -1,0 +1,133 @@
+.block{
+  margin-bottom: 80rpx;
+}
+
+.title{
+  font-size: 40rpx;
+  margin-bottom: 30rpx;
+}
+
+.setting_img{
+  color: red;
+}
+
+.radio_label, .checkbox_label, .blank_answers{
+  font-size: 35rpx;
+  margin-bottom: 30rpx;
+  display: block;
+  height: 55rpx;
+  padding: 15rpx 0 15rpx 15rpx;
+  border-style: solid;
+  border-color: rgb(199, 199, 199);
+  border-width: 3rpx;
+  border-radius: .2em;
+}
+
+.answer_content{
+  font-size: 35rpx;
+  padding-left: 20rpx;
+}
+
+/* 单选框的样式 */
+radio .wx-radio-input{ 
+    border-radius: 50%;
+    height: 35rpx; 
+    width: 35rpx;
+}
+
+radio .wx-radio-input.wx-radio-input-checked{
+   border: 1px solid #3aa7f9;
+   background: #3aa7f9;
+}
+
+radio .wx-radio-input.wx-radio-input-checked::before{
+  height: 35rpx; 
+  width: 35rpx;
+  line-height: 35rpx;
+  font-size: 30rpx;
+  border-radius: 50%;
+  text-align: center;
+  color:#fff;
+  background: #3aa7f9;
+}
+
+/* 多选框的样式 */
+checkbox .wx-checkbox-input{ 
+    height: 35rpx; 
+    width: 35rpx;
+}
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+   border: 1px solid #3aa7f9;
+   background: #3aa7f9;
+}
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+  height: 35rpx; 
+  width: 35rpx;
+  line-height: 35rpx;
+  font-size: 30rpx;
+  border-radius: 50%;
+  text-align: center;
+  color:#fff;
+  background: #3aa7f9;
+}
+
+.number_tip{
+  color: #a0a0a0;
+}
+
+.number_tip_up{
+  margin-bottom: 25rpx;
+}
+
+/* 框内矢量图 */
+.img_block{
+  display: flex;
+  margin-bottom: 30rpx;
+}
+
+.list_answers, .date_answers, .phone_answers, .id_answers, .mail_answers{
+  width: 95%;
+  font-size: 35rpx;
+  display: block;
+  height: 30px;
+  padding: 5px 0 5px 15rpx;
+  border-style: solid;
+  border-right-style: none;
+  border-color: rgb(199, 199, 199);
+  border-width: 3rpx;
+}
+
+.img{
+  width: 5%;
+  text-align:right; 
+  border-style: solid;
+  border-left-style: none;
+  border-color: rgb(199, 199, 199);
+  border-width: 3rpx;
+  height: 35px;
+  font-size: 40rpx;
+  padding-top: 5px;
+  padding-right: 10rpx;
+  color: rgb(199, 199, 199);
+}
+
+/* 星星 */
+.star_block{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-star{
+  font-size: 50rpx;
+}
+
+.true{
+  color: rgb(255, 217, 0);
+}
+
+.false{
+  color: rgb(228, 228, 228);
+}
+

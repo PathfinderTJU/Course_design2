@@ -1,0 +1,55 @@
+<view class="outside_block">
+  <view class="top_block">
+    <text class="title_block">{{questionnaire.questionnaireTitle}}</text>
+    <view class="line"></view>
+    <view class="args_block">
+
+      <view class="total_number">
+        <view class="tip">总回收量</view>
+        <view class="number">{{questionnaire.number}}</view>
+      </view>
+
+      <view class="max_number">
+        <view class="tip">最大回收</view>
+
+       <view wx:if="{{questionnaire.maxNumber !== ''}}"class="number">{{questionnaire.maxNumber}}</view>
+        <view wx:else class="number">无限制</view>
+      </view>
+
+    </view>
+  </view>
+
+  <view wx:if="{{hasAnswer}}" class="all" bindtap="toAll">点击查看全部答卷>></view>
+
+  <view class="bottom_block">
+    <view class="bottom_title">数据统计</view>
+    <view class="line"></view>
+    <view wx:if="{{hasAnswer}}">
+      <block wx:for="{{questionnaire.questions}}">
+
+        <view wx:if="{{item.type === 'radio'}}" class="radio_block">
+          <view class="question_title">{{item.order}}. {{item.title}}</view>
+          <canvas canvas-id="graph{{item.order}}" disable-scroll="true" class="radiocanvas"></canvas>
+        </view>
+
+        <view wx:elif="{{item.type === 'checkbox' || item.type === 'list'}}" class="checkbox_block">
+          <view class="question_title">{{item.order}}. {{item.title}}</view>
+          <canvas canvas-id="graph{{item.order}}" disable-scroll="true" class="checkboxcanvas"></canvas>
+        </view>
+
+        <view wx:elif="{{item.type === 'star'}}" class="star_block">
+          <view class="question_title">{{item.order}}. {{item.title}}</view>
+          <canvas canvas-id="graph{{item.order}}" disable-scroll="true" class="starcanvas"></canvas>
+        </view>
+
+        <view wx:else class="other_block">
+          <view class="question_title">{{item.order}}. {{item.title}}</view>
+          <view class="else" id="detail{{index}}" bindtap="toDetail">点击查看全部数据>></view>
+        </view>
+      </block>
+    </view>
+    <view wx:else class="noAnswer">
+      还没有收集到数据QAQ
+    </view>
+  </view>
+</view>

@@ -1,0 +1,54 @@
+/* pages/data_detail/data_detail.wxss */
+.title_block{
+  text-align: center;
+  padding: 50rpx;
+}
+
+.line{
+  margin: 0 30rpx 0 30rpx;
+  border-style: solid;
+  border-width: 1rpx;
+  border-color: #d3d2d2;
+}
+
+.else_block{
+  padding: 50rpx 30rpx 50rpx 30rpx;
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+
+.single_answer_block{
+  display: flex;
+  padding: 20rpx 0 20rpx 0;
+  text-align: center;
+}
+
+.single_answer_order{
+  box-sizing: content-box;
+  padding-left: 120rpx;
+  width: 20%;
+}
+
+.single_answer_content{
+  padding-left: 80rpx;
+  width: 80%
+}
+
+.all_block{
+  padding: 30rpx 40rpx 30rpx 40rpx;
+}
+
+.all_answer_order{
+  font-size: 40rpx;
+  padding-bottom: 20rpx;
+}
+
+.content_block{
+  display: flex;
+  padding-bottom: 20rpx;
+}
+
+.tip{
+  padding-left: 30rpx;
+  color: #3aa7f9;
+}

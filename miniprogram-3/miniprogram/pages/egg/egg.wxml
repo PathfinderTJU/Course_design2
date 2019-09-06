@@ -1,0 +1,28 @@
+<!--pages/egg/egg.wxml-->
+<view class="outside_block">
+  <view class="title">
+    恭喜你！发现了流星雨的小秘密
+  </view>
+
+  <view class="logo_block">
+    <image src="https://6878-hxl-1wbvh-1300062952.tcb.qcloud.la/logo.jpg?sign=604c4707a93ab340e6a89159e5458451&t=1567410897" class="logo"/>
+  </view>
+
+  <view class="content">
+    这是天津大学青年文化促进会的微信小程序雏形！欢迎加入新媒体综合事务部开发组，一起探索小程序的奥秘吧！
+  </view>
+
+  <view class="account">
+    <view class="tip3">北洋园校区-新媒体综合事务部</view>
+    <view class="name">流星雨</view>
+    <view class="name">严雪蜜</view>
+    <view class="name">郑瑞凡</view>
+    <view class="name">潘睿萌</view>
+    <view class="name">李浩</view>
+    <view class="name">李书乐</view>
+    <view class="name">王迪</view>
+    <view class="name">彭英杰</view>
+    <view class="name last_name">窦丁乐</view>
+    期待你的加入！
+  </view>
+</view>

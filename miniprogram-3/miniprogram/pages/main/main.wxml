@@ -1,0 +1,25 @@
+<!--miniprogram/pages/new/new.wxml-->
+
+<script src="../../style/iconfont.js"></script>
+
+<view class="bg">
+
+
+<!-- 底部切换菜单 -->
+<view class="tab-bar">
+  <block wx:for="{{tabBar}}" wx:for-item="item" wx:key="index">
+    <view class="tab-item {{index==nowIndex?'active':''}}" bindtap="{{item.tapFunction}}">
+        <view class="{{item.iconClass}} icons"></view>
+        <text class="icon-text">{{item.text}}</text>
+    </view>
+  </block>
+</view>
+<!-- 页面容器 -->
+<view class="container">
+  <firstPage wx:if="{{nowPage=='firstPage'}}" bind:goToBlank="goToBlank" ></firstPage>
+  <secondPage wx:if="{{nowPage=='secondPage'}}"></secondPage>
+</view>
+
+
+</view>
+

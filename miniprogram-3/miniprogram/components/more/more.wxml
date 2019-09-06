@@ -1,0 +1,27 @@
+<!--utils/component/modal.wxml-->
+<view hidden='{{!modalHidden}}'>
+  <view class='mask_layer' bindtap='modal_click_Hidden' />
+  <view class='modal_box'>
+
+    <view class='content'>
+      <view hidden="{{!canUp}}" bindtap="toUp">
+        <view class="item">
+          <text class="text">上移</text>
+        </view>
+        <view class="line"></view>
+      </view>
+
+      <view hidden="{{!canDown}}" bindtap="toDown">
+        <view class="item">
+          <text class="text">下移</text>
+        </view>
+        <view class="line"></view>
+      </view>
+
+      <view class="item" bindtap="toDelete">
+        <text class="text">删除</text>
+      </view>
+
+    </view>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+<!--pages/create/create.wxml-->
+<view class="outside_block">
+  <view class="new_block" bindtap="createNew">
+    <text class="iconfont icon-add" id="new_img"></text>
+    <text id="new_title">从空白创建</text>
+  </view>
+
+  <view class="old_block" bindtap="createOld">
+    <text class="iconfont icon-copy" id="old_img"></text>
+    <text id="old_title">复制已有模板</text>
+  </view>
+</view>
+
+<view class="outside_block">
+  <view class="new_block" bindtap="createBaoming">
+    <text class="iconfont icon-baoming" id="new_img"></text>
+    <text id="new_title">报名登记</text>
+  </view>
+
+  <view class="old_block" bindtap="createManyi">
+    <text class="iconfont icon-manyi" id="old_img"></text>
+    <text id="old_title">满意度调查</text>
+  </view>
+</view>
+
+<view class="outside_block">
+  <view class="new_block" bindtap="createToupiao">
+    <text class="iconfont icon-toupiao" id="new_img"></text>
+    <text id="new_title">投票评选</text>
+  </view>
+
+  <view class="old_block" bindtap="createTest">
+    <text class="iconfont icon-test" id="old_img"></text>
+    <text id="old_title">考试作答</text>
+  </view>
+</view>

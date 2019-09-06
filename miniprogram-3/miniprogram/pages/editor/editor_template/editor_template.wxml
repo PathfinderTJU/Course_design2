@@ -1,0 +1,154 @@
+<template name="radio">
+  <view class="block">
+    <view class="more">
+      <text class="iconfont icon-more" id="more_button{{item.order}}" bindtap="more"></text>
+    </view>
+    <view bindtap="radio_reEdit" id="problem{{item.order}}">
+      <view class="title">
+        {{item.order}}
+        <text wx:if="{{item.setting}}" class="setting_img">*</text> . {{item.title}}
+      </view>
+      <view class="radio_answers">
+        <radio-group class="answers-group">
+          <label wx:for="{{item.answers}}" class="radio_label">
+            <radio value="{{item.name}}" checked="{{item.checked}}" class="radio_item" disabled="true" />{{item}}
+          </label>
+        </radio-group>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="checkbox">
+  <view class="block">
+    <view class="more">
+      <text class="iconfont icon-more" id="more_button{{item.order}}" bindtap="more"></text>
+    </view>
+    <view bindtap="checkbox_reEdit" id="problem{{item.order}}">
+      <view class="title">
+        {{item.order}}
+        <text wx:if="{{item.setting}}" class="setting_img">*</text> . {{item.title}}</view>
+      <view class="checkbox_answers">
+        <checkbox-group class="answers-group">
+          <label wx:for="{{item.answers}}" class="checkbox_label">
+            <checkbox value="{{item.name}}" checked="{{item.checked}}" class="checkbox_item" disabled="true" />{{item}}
+          </label>
+        </checkbox-group>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="blank">
+  <view class="block">
+    <view class="more">
+      <text class="iconfont icon-more" id="more_button{{item.order}}" bindtap="more"></text>
+    </view>
+    <view bindtap="blank_reEdit" id="problem{{item.order}}">
+      <view class="title">
+        {{item.order}}
+        <text wx:if="{{item.setting}}" class="setting_img">*</text> . {{item.title}}</view>
+      <view class="blank_answers"></view>
+    </view>
+  </view>
+</template>
+
+<template name="list">
+  <view class="block">
+    <view class="more">
+      <text class="iconfont icon-more" id="more_button{{item.order}}" bindtap="more"></text>
+    </view>
+    <view bindtap="list_reEdit" id="problem{{item.order}}">
+      <view class="title">
+        {{item.order}}
+        <text wx:if="{{item.setting}}" class="setting_img">*</text> . {{item.title}}</view>
+      <view class="list_answers">
+        <text class="iconfont icon-list" id="list_img"></text>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="star">
+  <view class="block">
+    <view class="more">
+      <text class="iconfont icon-more" id="more_button{{item.order}}" bindtap="more"></text>
+    </view>
+    <view bindtap="star_reEdit" id="problem{{item.order}}">
+      <view class="title">
+        {{item.order}}
+        <text wx:if="{{item.setting}}" class="setting_img">*</text> . {{item.title}}</view>
+      <view class="star_answers">
+        <text class="iconfont icon-star star_img"></text>
+        <text class="iconfont icon-star star_img"></text>
+        <text class="iconfont icon-star star_img"></text>
+        <text class="iconfont icon-star star_img"></text>
+        <text class="iconfont icon-star star_img"></text>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="phone">
+  <view class="block">
+    <view class="more">
+      <text class="iconfont icon-more" id="more_button{{item.order}}" bindtap="more"></text>
+    </view>
+    <view bindtap="phone_reEdit" id="problem{{item.order}}">
+      <view class="title">
+        {{item.order}}
+        <text wx:if="{{item.setting}}" class="setting_img">*</text> . {{item.title}}</view>
+      <view class="phone_answers">
+        <text class="iconfont icon-phone" id="phone_img"></text>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="mail">
+  <view class="block">
+    <view class="more">
+      <text class="iconfont icon-more" id="more_button{{item.order}}" bindtap="more"></text>
+    </view>
+    <view bindtap="mail_reEdit" id="problem{{item.order}}">
+      <view class="title">
+        {{item.order}}
+        <text wx:if="{{item.setting}}" class="setting_img">*</text> . {{item.title}}</view>
+      <view class="mail_answers">
+        <text class="iconfont icon-mail" id="mail_img"></text>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="date">
+  <view class="block">
+    <view class="more">
+      <text class="iconfont icon-more" id="more_button{{item.order}}" bindtap="more"></text>
+    </view>
+    <view bindtap="date_reEdit" id="problem{{item.order}}">
+      <view class="title">
+        {{item.order}}
+        <text wx:if="{{item.setting}}" class="setting_img">*</text> . {{item.title}}</view>
+      <view class="date_answers">
+        <text class="iconfont icon-date" id="date_img"></text>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="id">
+  <view class="block">
+    <view class="more">
+      <text class="iconfont icon-more" id="more_button{{item.order}}" bindtap="more"></text>
+    </view>
+    <view bindtap="id_reEdit" id="problem{{item.order}}">
+      <view class="title">
+        {{item.order}}
+        <text wx:if="{{item.setting}}" class="setting_img">*</text> . {{item.title}}</view>
+      <view class="id_answers">
+        <text class="iconfont icon-id" id="id_img"></text>
+      </view>
+    </view>
+  </view>
+</template>

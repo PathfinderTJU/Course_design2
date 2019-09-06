@@ -1,0 +1,54 @@
+/* pages/add_star/add_star.wxss */
+page{
+  background-color: rgb(236, 236, 236);
+}
+
+.top_block{
+  border-bottom-style: solid;
+  border-bottom-width: 4rpx;
+  border-bottom-color: rgb(222, 222, 222);
+  background-color: white;
+  padding: 70rpx;
+}
+
+.title_block {
+  padding-bottom: 30rpx;
+}
+
+.stars_block{
+  padding: 30rpx 0 20rpx 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars{
+  font-size: 70rpx;
+  color: rgb(222,222,222);
+}
+
+.bottom_block{
+  padding: 0 70rpx 0 70rpx;
+}
+
+.setting_block{
+  margin: 50rpx 0 50rpx 0;
+}
+
+#tip{
+  font-size: 30rpx;
+  color:rgb(131, 131, 131);
+  padding-bottom: 30rpx;
+}
+
+#save{
+  background-color: #3aa7f9;
+  color: white;
+}
+
+.cancel{
+  color:red;
+  font-size: 30rpx;
+  text-align: center;
+  margin: 15rpx auto 0 auto;
+  width: 30%;
+}

@@ -1,0 +1,5 @@
+<view class="container">
+  <text class="text1">发布成功</text>
+  <button wx:if="{{!hasQR}}" class="btn" bindtap="getQR">点击生成问卷二维码</button>
+  <image wx:if="{{hasQR}}" src="{{QRURL}}"/>
+</view>

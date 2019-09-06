@@ -1,0 +1,27 @@
+/* pages/failed/failed.wxss */
+.outside_block{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.icon_block{
+  margin-top: 40%;
+  text-align: center;
+}
+
+.thanks{
+  text-align: center;
+  font-size: 40rpx;
+  margin-top: 50rpx;
+}
+
+.copyright_block{
+  display: block;
+  position: absolute;
+  text-align: center;
+  bottom: 50rpx;
+  width: 100%;
+  color: #a0a0a0;
+  font-size: 30rpx;
+}

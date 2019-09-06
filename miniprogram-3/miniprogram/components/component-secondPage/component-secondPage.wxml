@@ -1,0 +1,2 @@
+<!--component/component-secondPage/component-secondPage.wxml-->
+<text class="secondText">这是第二页</text>

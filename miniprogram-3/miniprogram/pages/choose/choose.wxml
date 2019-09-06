@@ -1,0 +1,16 @@
+<!--pages/choose/choose.wxml-->
+<view class="outside_block">
+  <block wx:for="{{questionaires}}">
+    <view class="questionaire_block">
+      <view class="information_block">
+        <view class="title_block">{{item.questionnaireTitle}}</view>
+     <view class="date_block">{{item.createTime[0]}}年{{item.createTime[1]}}月{{item.createTime[2]}}日 {{item.createTime[3]}}:<text wx:if="{{item.timeOut}}">0</text>{{item.createTime[4]}}</view>
+      </view>
+      
+      <view class="button_block">
+        <button id="button{{index}}" bindtap="copy">复制</button>
+      </view>
+    </view>
+    <view class="line"></view>
+  </block>
+</view>

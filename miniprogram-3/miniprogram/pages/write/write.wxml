@@ -1,0 +1,25 @@
+<!--pages/write/write.wxml-->
+<import src="/pages/write/write_template/write_template.wxml" />
+
+<view wx:if="{{isView}}" class="view_tip">
+  <text id="tip">当前页面为预览页面，回答将不计入结果</text>
+</view>
+
+<view class="outside_block">
+  <view class="title_block">
+    {{title}}
+  </view>
+
+  <view class="abstract_block">
+    {{abstract}}
+  </view>
+
+  <form bindsubmit="formSubmit">
+    <block wx:for="{{question}}">
+      <template is="{{item.type}}" data="{{item}}"></template>
+    </block>
+
+    <button class="submit_button" form-type="submit">提交</button>
+    <view class="copyRight_block">HXLstudio提供技术支持</view>
+  </form>
+</view>

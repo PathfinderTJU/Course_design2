@@ -1,0 +1,6 @@
+<!--pages/about/aboutUs.wxml-->
+<text>pages/about/aboutUs.wxml</text>
+<text class="text1">关于我们</text>
+<text class="text2">团队成员：刘兴宇、刘杭学、郭宇萌、龚语思</text>
+
+<button class="next" hover-class="hover">查看创作团队</button>

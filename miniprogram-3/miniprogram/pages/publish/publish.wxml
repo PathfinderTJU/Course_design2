@@ -1,0 +1,17 @@
+<text class="text1">设定问卷截止时间</text>
+ <view class="section" >  
+  <picker mode="multiSelector" value="{{dateTime1}}" bindchange="changeDateTime1"
+  bindcolumnchange="changeDateTimeColumn1" range="{{dateTimeArray1}}">
+    <view class="tui-picker-detail">
+      {{dateTimeArray1[0][dateTime1[0]]}}-{{dateTimeArray1[1][dateTime1[1]]}}-{{dateTimeArray1[2][dateTime1[2]]}} {{dateTimeArray1[3][dateTime1[3]]}}:{{dateTimeArray1[4][dateTime1[4]]}}
+    </view>
+  </picker>
+</view>  
+
+<form bindsubmit="goPublish">
+<text class="text2">设定答卷人数上限</text>
+<input class="input" name="max_number" type="idcard"></input> 
+<button form-type="submit" class="next" hover-class="hover">发布问卷</button>
+</form>
+
+ 

@@ -1,0 +1,50 @@
+/* pages/choose/choose.wxss */
+.outside_block{
+  height:800px;
+  overflow: scroll;
+  padding: 0 40rpx 0 40rpx;
+}
+
+.questionaire_block{
+  margin-top: 40rpx;
+  display: flex;
+}
+
+.information_block{
+  width: 80%;
+}
+
+.title_block{
+  font-size: 40rpx;
+}
+
+.date_block{
+  font-size: 30rpx;
+  color: #a0a0a0;
+}
+
+.button_block{
+  float: right;
+}
+
+button{
+  margin-top: 12rpx; 
+  font-size: 30rpx;
+  text-align: center;
+  height: 75rpx;
+  width: 150rpx;
+  color: #3aa7f9;
+  background-color: white;
+  border-style: solid;
+  border-width: 1rpx;
+  border-radius: 1em;
+  border-color: #3aa7f9;
+}
+
+.line{
+  margin-top: 40rpx;
+  width: 100%;
+  border-style: solid;
+  border-width: 3rpx;
+  border-color: #dfdfdf;
+}

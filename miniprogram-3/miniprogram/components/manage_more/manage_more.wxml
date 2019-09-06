@@ -1,0 +1,29 @@
+<!--components/manage_more/manage_more.wxml-->
+<view hidden='{{!modalHidden}}'>
+  <view class='mask_layer' bindtap='modal_click_Hidden' />
+  <view class='modal_box'>
+
+    <view class='content'>
+      <view bindtap="toPublish">
+        <view class="item">
+          <text class="text">发布/暂停发布</text>
+        </view>
+        <view class="line"></view>
+      </view>
+
+      <view bindtap="toView">
+        <view class="item">
+          <text class="text">预览</text>
+        </view>
+        <view class="line"></view>
+      </view>
+
+      <view bindtap="toDelete">
+        <view class="item">
+          <text class="text">删除</text>
+        </view>
+      </view>
+
+    </view>
+  </view>
+</view>

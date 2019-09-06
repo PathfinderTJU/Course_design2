@@ -1,0 +1,27 @@
+<!--pages/add_radio/add_radio.wxml-->
+<form bindsubmit="formSubmit">
+  <view class="top_block">
+    <view class="title_block">
+      <input id="title_input" placeholder="点击编辑题目名称" type="text" name="title" value="{{formData.title}}"/>
+    </view>
+    <block wx:for="{{formData.answers}}">
+      <view class="answer_block">
+        <input class="answer_input" id="answer{{index}}" placeholder="点击编辑选项" type="text" name="answer{{index+1}}" value="{{item}}" bindblur="update"/>
+        <text class="iconfont icon-minus" bindtap="delete_answer" bindtap="delete_answer" id="delete_answer{{index}}"></text>
+      </view>
+    </block>
+    <view class="add_block" bindtap="add_answer">
+      <text class="iconfont icon-plus" decode="{{true}}">&nbsp;添加选项</text>
+    </view>
+  </view>
+
+  <view class="bottom_block">
+    <view class="setting_block">
+      <view id="tip">题目设置</view>
+      <switch id="radio_answer" checked="{{formData.setting}}" color="#3aa7f9" name="setting"/>必答题
+    </view>
+
+    <button id="save" form-type="submit">保存</button>
+    <view class="cancel" bindtap="cancel">删除题目</view>
+  </view>
+</form>

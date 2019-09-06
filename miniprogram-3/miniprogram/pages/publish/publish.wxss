@@ -1,0 +1,40 @@
+/* miniprogram/pages/date/date.wxss */
+.section{
+   background:rgb(255, 255, 255);
+   margin:20rpx;
+   padding:30rpx;
+   margin-left: 20px;
+   margin-right: 20px
+
+}
+
+.text1{
+   margin:20rpx 25rpx;
+   padding:20rpx;
+}
+.text2{
+   margin:20rpx 25rpx;
+   padding:20rpx
+
+}
+.input{
+  background:rgb(255, 255, 255);
+  padding-left: 20px;
+  height: 44px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.next{
+    margin-top: 30px;
+    width: 60%;
+    background-color: #7aa7f9;
+    color: white;
+    border-radius: 98rpx;
+    background: bg_red;
+}
+
+.hover {
+  background:  rgb(23, 123, 218);
+}

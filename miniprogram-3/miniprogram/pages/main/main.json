@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#3aa7f9",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "我的项目",
+  "backgroundColor": "#515151",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "firstPage": "/components/component-firstPage/component-firstPage",
+    "secondPage": "/components/component-secondPage/component-secondPage"
+    }
+}

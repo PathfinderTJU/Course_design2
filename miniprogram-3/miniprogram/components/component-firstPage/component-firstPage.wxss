@@ -1,0 +1,40 @@
+/* component/component-firstPage/component-firstPage.wxss */
+.bg {
+  height: 500%;
+  background-color: #fff;
+}
+ page {
+  background-color: #fff;
+} 
+
+.icon{
+  align-items: center;
+  font-size: 120%;
+  padding-left: 50px;
+}
+
+.title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 18px;
+  color:#515151;
+  font-weight: bold;
+  font-family: "幼圆";
+}
+
+.blank { 
+ width: 35%; 
+ height: 100px;
+ margin-top: 170px; 
+ margin-left:45px;
+ float:left;
+ /* background-color: #fff; */
+}
+.module { 
+ width: 35%; 
+ margin-top: 170px; 
+ margin-right:45px;
+ float:right;
+ /* background-color: #fff; */
+}

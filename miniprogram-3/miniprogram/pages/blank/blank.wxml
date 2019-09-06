@@ -1,0 +1,20 @@
+<!--miniprogram/pages/blank/blank.wxml-->
+<!-- <view class='page'> -->
+<!--  标题 -->
+<script src="blank.js"></script> 
+<label class="title">问卷标题</label> 
+ <view class="titleView"> 
+  <textarea class="inputText" style="height: 400px; overflow:scroll"></textarea>   
+ </view> 
+  
+<!-- 简介 -->
+ <label class="summary">简介</label> 
+ <view class="inputView"> 
+  <textarea class="inputText"></textarea>   
+ </view> 
+
+<!--按钮-->
+ <view class="loginBtnView"> 
+  <button class="loginBtn" style="background-color: #3aa7f9" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">创建问卷</button> 
+ </view> 
+<!-- </view> -->

@@ -1,0 +1,17 @@
+/* pages/about/aboutUs.wxss */
+.text1{
+  /* 居中 */
+}
+
+.next{
+    margin-top: 30px;
+    width: 60%;
+    background-color: #7aa7f9;
+    color: white;
+    border-radius: 98rpx;
+    background: bg_red;
+}
+.hover {
+  background:  rgb(23, 123, 218);
+}
+

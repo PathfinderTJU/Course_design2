@@ -1,0 +1,90 @@
+/* pages/add_checkbox/add_checkbox.wxss */
+page{
+  background-color: rgb(236, 236, 236);
+}
+
+.top_block{
+  border-bottom-style: solid;
+  border-bottom-width: 4rpx;
+  border-bottom-color: rgb(222, 222, 222);
+  background-color: white;
+  padding: 70rpx;
+}
+
+.title_block{
+  padding-bottom: 30rpx;
+}
+
+.answer_block{ 
+  display: flex;
+  align-items: baseline;
+}
+
+.answer_block, .title_block{
+  border-bottom-style: solid;
+  border-bottom-width: 4rpx;
+  border-bottom-color: rgb(222, 222, 222);
+}
+
+.answer_input{
+  margin: 50rpx 0 30rpx 0;
+  width: 85%;
+}
+
+.answer_input_block{
+  width: 500rpx;
+}
+
+.plus_block{
+  float:left;
+}
+
+.add_block{
+  margin-top: 50rpx;
+  width: 40%;
+  color:#3aa7f9; 
+}
+
+.bottom_block{
+  padding: 0 70rpx 0 70rpx;
+}
+
+.setting_block{
+  margin: 50rpx 0 50rpx 0;
+}
+
+#tip{
+  font-size: 30rpx;
+  color:rgb(131, 131, 131);
+  padding-bottom: 30rpx;
+}
+
+.number_block_1, .number_block_2{
+  display: flex;
+  margin-top: 30rpx;
+}
+
+#number_picker_1, #number_picker_2{
+  margin: 0 10rpx 0 10rpx;
+  width: 110rpx;
+  height: 50rpx;
+  background-color: white; 
+  border-style: solid;
+  border-color: rgb(170, 170, 170);
+  border-width: 2rpx;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+#save{
+  background-color: #3aa7f9;
+  color: white;
+}
+
+.cancel{
+  color:red;
+  font-size: 30rpx;
+  text-align: center;
+  margin: 15rpx auto 40rpx auto;
+  width: 30%;
+}

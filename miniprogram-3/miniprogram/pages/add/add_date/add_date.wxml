@@ -1,0 +1,21 @@
+<!--pages/add_date/add_date.wxml-->
+<form bindsubmit="formSubmit">
+  <view class="top_block">
+    <view class="title_block">
+      <input id="title_input" placeholder="点击编辑题目名称" type="text" value="日期" name="title" value="{{formData.title}}"/>
+    </view>
+    <view class="box">
+      <text class="iconfont icon-date" id="date_img"></text>
+    </view>
+  </view>
+
+  <view class="bottom_block">
+    <view class="setting_block">
+      <view id="tip">题目设置</view>
+      <switch id="radio_answer" checked="{{formData.setting}}" color="#3aa7f9" name="setting"/>必答题
+    </view>
+
+    <button id="save" form-type="submit">保存</button>
+    <view class="cancel" bindtap="cancel">删除题目</view>
+  </view>
+</form>

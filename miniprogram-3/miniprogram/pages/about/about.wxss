@@ -1,0 +1,94 @@
+/* miniprogram/pages/about/about.wxss */
+page {
+  padding-bottom: 50rpx;
+  background: #f8f8f8;
+}
+
+.header {
+  padding: 0 25rpx;
+  padding-top: 40rpx;
+  padding-bottom: 50rpx;
+  width: 100%;
+  background: linear-gradient(#3aa7f9, #7fc3fa);
+  position:relative;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .gif-wave{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  mix-blend-mode: screen;  
+  height: 100rpx;  
+}
+.user_box {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  background: #fff;
+  will-change: transform;
+  position:relative;
+}
+
+.logo image {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.logo image {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  will-change: transform;
+}
+
+.user_info {
+  padding-left: 32rpx;
+}
+
+.user_name {
+  display: flex;
+  align-items: center;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav {
+  padding: 0 25rpx;
+  font-size: 34rpx;
+  background: #fff;
+}
+
+.nav .item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 30rpx 0rpx;
+}
+
+.detail {
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  line-height: 20px;
+  color: #a0a0a0;
+  padding-right: 20rpx;
+}
+
+.beta{
+  color: #a0a0a0;
+}

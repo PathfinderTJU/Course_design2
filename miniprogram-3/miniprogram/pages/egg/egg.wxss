@@ -1,0 +1,36 @@
+/* pages/egg/egg.wxss */
+.outside_block{
+  padding: 50rpx 50rpx 0 50rpx; 
+}
+
+.title{
+  font-size: 40rpx;
+  text-align: center;
+  margin-bottom: 50rpx;
+}
+
+.logo_block{
+  text-align: center;
+}
+
+.logo{
+  width: 300rpx;
+  height: 300rpx;
+  margin-bottom: 50rpx;
+}
+
+.content{
+  margin-bottom: 50rpx;
+}
+
+.account{
+  text-align: center;
+}
+
+.tip3{
+  margin-bottom: 30rpx;
+}
+
+.last_name{
+  margin-bottom: 30rpx;
+}

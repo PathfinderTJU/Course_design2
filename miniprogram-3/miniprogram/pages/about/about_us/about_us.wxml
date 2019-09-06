@@ -1,0 +1,41 @@
+<!--pages/about/about_us/about_us.wxml-->
+<view class="outside_block">
+  <view class="tip1">
+    有些人过了十七岁，就忘了十六岁的自己
+  </view>
+
+  <view class="tip2">
+    HXLStudio成员:
+  </view>
+
+  <view class="account">
+    <view class="message">
+      <view class="move"><text class="iconfont icon-star"></text></view>
+      <view class="id" decode="{{true}}">刘兴宇 3017218063</view>
+    </view>
+    <view class="message">
+      <view class="move"><text class="iconfont icon-star"></text></view>
+      <view class="id" decode="{{true}}">刘杭学 3017218060</view>
+    </view>
+    <view class="message">
+      <view class="move"><text class="iconfont icon-star"></text></view>
+      <view class="id" decode="{{true}}">郭宇萌 3017218057</view>
+    </view>
+    <view class="message">
+      <view class="move"><text class="iconfont icon-star"></text></view>
+      <view class="id" decode="{{true}}">龚语思 3017209103</view>
+    </view>
+  </view>
+
+  <view class="thanks" decode="{{true}}">
+    指导教师：张怡、李罡
+  </view>
+
+  <view class="ending">
+    仰望星空，不要低头看脚下。无论生活多么艰难，请保持一颗好奇心
+  </view>
+</view>
+
+<view class="copy">
+    Beta测试版 2019.09
+</view>

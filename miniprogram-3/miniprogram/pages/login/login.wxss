@@ -1,0 +1,74 @@
+/* pages/login/login.wxss */
+page{
+  height: 100%;
+  /* background-color:#3AA7F9; */
+  background-repeat: no-repeat;
+  background-image: url("https://6878-hxl-1wbvh-1300062952.tcb.qcloud.la/TIM%E5%9B%BE%E7%89%8720190826114500.png?sign=21226f8ce24830db2efd9029d4ca227c&t=1566791120");
+  background-size: 100% 120%;
+}
+
+.outside_block{
+  height: max-height;
+  padding: 150rpx 0 50rpx 0;
+  font-family: Mircosoft Yahei;
+}
+
+.logo_block{
+  height: 450rpx;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.logo_img_block{
+  height: 150rpx;
+  text-align: center;
+}
+
+#logo_img{
+  height: 148rpx;
+  width: 150rpx;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+
+#logo_name{
+  text-align: center;
+  font-size: 40rpx;
+  padding: 20rpx;
+}
+
+#construction{
+  height: 200rpx;
+  font-size: 50rpx;
+  margin-top:80rpx;
+  text-align: center;
+}
+
+.button_block{
+  padding-top: 500rpx;
+}
+
+#login_button{
+  width: 85%;
+  color: #62b900;
+}
+
+.bottom_block{
+  padding-top: 25px;
+  text-align: center;
+  font-size: 30rpx;
+  font-family: Heiti SC;
+  color: #000000;
+  font-weight: strong;
+}
+
+@media(max-height: 600px){
+  .button_block{
+    padding-top: 300rpx;
+  }
+
+  .outside_block{
+    padding-top: 100rpx;
+  }
+}
+

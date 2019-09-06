@@ -1,0 +1,41 @@
+/* pages/write/write.wxss */
+@import "/pages/write/write_template/write_template.wxss";
+
+.view_tip {
+  height: 70rpx;
+  background-color: rgb(255, 192, 75);
+  width: 100%;
+  text-align: center;
+  padding-top: 18rpx;
+}
+
+.outside_block {
+  margin: 80rpx 50rpx 0rpx 50rpx;
+  position: absolute;
+  height: 100%;
+}
+
+.title_block {
+  font-size: 50rpx;
+  margin-bottom: 40rpx;
+}
+
+.abstract_block {
+  font-size: 35rpx;
+  margin-bottom: 40rpx;
+}
+
+.submit_button {
+  margin-top: 50rpx;
+  color: white;
+  background-color: #3aa7f9;
+}
+
+.copyRight_block {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  width: 100%;
+  font-size: 30rpx;
+  color: #a0a0a0;
+  text-align: center;
+}

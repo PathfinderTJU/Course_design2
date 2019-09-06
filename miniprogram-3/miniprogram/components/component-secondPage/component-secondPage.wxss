@@ -1,0 +1,4 @@
+/* component/component-secondPage/component-secondPage.wxss */
+.secondText{
+  color:red;
+}

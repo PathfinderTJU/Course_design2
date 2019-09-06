@@ -1,0 +1,38 @@
+/* miniprogram/pages/blank/blank.wxss */
+page{
+  background-color: rgb(235, 235, 235);
+}
+
+.outside_block{
+  padding: 80rpx;
+}
+
+.title, .abstract{
+  color: #3E3E3E;
+  font-size: 40rpx;
+  margin-bottom: 50rpx;
+}
+
+.title_input, .abstract_input{
+  background-color: white;
+  font-size: 30rpx;
+  margin-bottom: 80rpx;
+  padding: 40rpx;
+  width: 87%;
+  border-radius: .25em;
+  box-shadow: 0 2px 2px 0 rgb(192, 192, 192);
+}
+
+.title_input{
+  height: 40rpx;
+}
+
+.abstract_input{
+  height: 200rpx;
+}
+
+.button{
+  margin-top: 100rpx;
+  background-color: #3aa7f9;
+  color: white;
+}

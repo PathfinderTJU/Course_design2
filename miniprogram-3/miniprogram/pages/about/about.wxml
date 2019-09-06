@@ -1,0 +1,47 @@
+<!--miniprogram/pages/about/about.wxml-->
+<view class="header">
+  <view class="user" hoverClass="none">
+    <view class="user_box">
+      <view class="logo">
+        <image src="{{avatarUrl}}"></image>
+      </view>
+      <view class="user_info">
+        <view class="user_name">
+          <text>{{nickName}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <image src='https://edu.qinhui88.com/assets/wx/image/wave.gif' mode='scaleToFill' class='gif-wave'></image>
+</view>
+
+<view class="nav">
+
+  <view class="item">
+    <view class='wallet'>
+      <text decode="{{true}}">&nbsp;当前版本</text>
+    </view>
+    <view class="beta">
+      Beta测试版
+    </view>
+  </view>
+
+
+  <view bindlongtap="hxl" bindtap="toAbout" class="item">
+    <view class='wallet'>
+      <text decode="{{true}}" space="{{true}}">&nbsp;关于我们</text>
+    </view>
+    <view class="detail">
+      <text>></text>
+    </view>
+  </view>
+
+  <view class="item">
+    <view class='wallet'>
+      <text decode="{{true}}" space="{{true}}">&nbsp;联系客服</text>
+    </view>
+    <view class="beta">
+      敬请期待
+    </view>
+  </view>
+</view>

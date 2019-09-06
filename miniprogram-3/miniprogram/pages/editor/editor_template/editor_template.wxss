@@ -1,0 +1,81 @@
+/*通用*/
+.block{
+  margin: 30rpx 50rpx;
+  padding: 50rpx;
+  background-color: white;
+  border-radius: .25rem;
+  box-shadow: 0 5px 5px 0 rgb(192, 192, 192);
+}
+
+.more{
+  position: relative;
+  top: -30rpx;
+  float: right;
+}
+
+.title{
+  color: #3E3E3E;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+  font-size: 35rpx;
+}
+
+.setting_img{
+  color: red;
+}
+
+/*选择模板*/
+.radio_item, checkbox_item{
+  font-size: 35rpx;
+}
+
+.radio_label, .checkbox_label{
+  display: block;
+  margin-bottom: 30rpx; 
+}
+
+radio .wx-radio-input{
+   border-radius: 50%;
+   width: 30rpx;
+   height: 30rpx;
+}
+
+checkbox .wx-checkbox-input{
+  width: 30rpx;
+  height: 30rpx;
+}
+
+/* 填空 */
+.blank_answers, .phone_answers, .mail_answers, .date_answers, .id_answers, .list_answers{
+  border-style: solid;
+  border-width: 2rpx;
+  border-color: rgb(222, 222, 222);
+}
+
+.blank_answers{
+  height: 100rpx;
+}
+
+.phone_answers, .mail_answers, .date_answers, .id_answers, .list_answers{
+  height: 80rpx;
+}
+
+#phone_img, #mail_img, #date_img, #id_img, #list_img{
+  float:right;
+  position: relative;
+  top: 20rpx;
+  right: 20rpx;
+  font-size: 40rpx;
+  color: rgb(222, 222, 222);
+}
+
+/* 星星 */
+.star_answers{
+  display: flex;
+  justify-content: space-between;
+}
+
+.star_img{
+  font-size: 70rpx;
+  color: rgb(222,222,222);
+}

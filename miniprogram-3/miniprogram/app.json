@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/main/main",
+    "pages/blank/blank",
+    "pages/add/add_radio/add_radio",
+    "pages/add/add_checkbox/add_checkbox",
+    "pages/add/add_blank/add_blank",
+    "pages/add/add_phone/add_phone",
+    "pages/add/add_list/add_list",
+    "pages/add/add_mail/add_mail",
+    "pages/add/add_date/add_date",
+    "pages/add/add_id/add_id",
+    "pages/add/add_star/add_star",
+    "pages/add_question/add_question",
+    "pages/publish/publish",
+    "pages/manage/manage",
+    "pages/index/index",
+    "pages/statistics/statistics",
+    "pages/title_abstract/title_abstract",
+    "pages/editor/editor",
+    "pages/create/create",
+    "pages/write/write",
+    "pages/success_thanks/success_thanks",
+    "pages/failed/failed",
+    "pages/about/about",
+    "pages/about/about_us/about_us",
+    "pages/egg/egg",
+    "pages/choose/choose",
+    "pages/complete/complete",
+    "pages/data_detail/data_detail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#3aa7f7",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/index/icons/managed.png",
+        "iconPath": "pages/index/icons/manage.png",
+        "pagePath": "pages/manage/manage",
+        "text": "管理"
+      },
+      {
+        "selectedIconPath": "pages/index/icons/added.png",
+        "iconPath": "pages/index/icons/add.png",
+        "pagePath": "pages/index/index",
+        "text": "新增"
+      },
+      {
+        "selectedIconPath": "pages/index/icons/abouted.png",
+        "iconPath": "pages/index/icons/about.png",
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap34.json"
+}

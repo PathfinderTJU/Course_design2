@@ -1,0 +1,11 @@
+<!--component/component-firstPage/component-firstPage.wxml-->
+<view class='blank' >
+  <!-- <view class="iconfont icon-gonggao"></view> -->
+  <view class="icon iconfont icon-add "></view>
+  <view class="title" bindtap="goToBlank">自定义问卷</view>
+</view>
+
+<view class='module'>
+  <view class="iconfont icon-edit icon"></view>
+  <view class="title">从模板导入</view>
+</view>

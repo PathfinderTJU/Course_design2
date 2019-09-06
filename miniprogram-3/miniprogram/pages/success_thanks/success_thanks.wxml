@@ -1,0 +1,15 @@
+<!--pages/success_thanks/success_thanks.wxml-->
+<view class="outside_block">
+  <view class="icon_block" >
+    <icon type="success" size="50" id="success_icon" />
+  </view>
+  <view class="success_tip">提交成功</view>
+  <view class="thanks" decode="{{true}}">
+    感谢使用怡问卷，期待您的下次使用
+  </view>
+
+  <view class="copyright_block">
+    <view id="name">HXLstudio提供技术支持</view>
+    <view id="copyright">CopyRight@LXY&HXL 2019.09</view>
+  </view>
+</view>

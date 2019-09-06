@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "manage_more": "/components/manage_more/manage_more"
+  },
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "我的问卷",
+  "navigationBarBackgroundColor": "#3aa7f9"
+}
